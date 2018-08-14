@@ -3,4 +3,4 @@
 print "Enter your name: "
 name = gets.chomp
 
-puts "Hi #{name}, how are you?"
+puts "Hi #{name.upcase}, how are you?"
